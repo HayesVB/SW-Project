@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Registration form</title>
+<link rel = 'stylesheet' href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>REGISTRATION FORM</h1>
+<form action="typage.html" method="get">
+<label>Name :</label><input type="text" name="name" placeholder="Eg:Amal" maxlength="100"><br><br>
+<label>Gender:</label><label> Male<input type="radio" name="gender" value="Male"> Female<input type="radio" name="gender" value="Male"></label><br><br>
+<label>Date of birth :</label><input type="date" name="date"><br><br>
+<label>Country :</label>
+<input id="move" list="gm">
+<datalist id="gm">
+<option value="China">
+<option value="India">
+<option value="United States">
+<option value="Indonesia">
+<option value="Pakistan">
+<option value="Brazil">
+<option value="Nigeria">
+<option value="Bangladesh">
+<option value="Russian Federation">
+<option value="Mexico">
+</datalist><br><br>
+<label>E-mail :</label><input type="email" name="email" placeholder="Include @"><br><br>
+<label>No.of vehicles :</label><input type="number" min="0" max="100"><br><br>
+<label>Set password :</label><input type="password" name="password" placeholder="PASSWORD"><br><br>
+<label>Differently abled ? :</label><label>Yes<input type="radio" name="gender">No<input type="radio" name="gender"></label><br><br>
+<label>Favourite color :</label><input type="color" name="clr"><br><br>
+<label>Favourite car :</label>
+<label><input type ="checkbox" name="a1">BMW</label>
+<label><input type ="checkbox" name="a1">Volkswagen</label>
+<label><input type ="checkbox" name="a1">BYD</label>
+<label><input type ="checkbox" name="a1">Supra</label><br><br>
+
+<input type="submit" value="SUBMIT">
+<input type="reset" value="RESET">
+
+</form>
+</div>
+</body>
+</html>
